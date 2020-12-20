@@ -1,0 +1,167 @@
+@font-face 
+{
+	font-family: SitkaSmall;
+	src: url(../fonts/SitkaSmall.ttf) format("truetype");
+}
+
+header
+{
+	background-color: #3B2B1E;
+	color: white;
+	margin: 0;
+	padding-top: 1px;
+	text-align: center;
+}
+
+header h1 
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size: 40px;
+}
+
+header h2
+{
+	margin-top: 10px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	letter-spacing: 4px;
+}
+
+body
+{
+	background-color: #F9F8E7;
+	margin: 0px;
+}
+
+body img
+{
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 3%;
+}
+
+.wrapper
+{
+	display: inline-block;
+	margin-top: 8%;
+	margin-left: 6%;
+	margin-right: 6%;
+	margin-bottom: 25%;
+	text-align: center;
+	position: absolute;
+	font-family: SitkaSmall;
+	font-size: 32px;
+}
+
+.content
+{
+	margin-left: 45%;
+	margin-top: 15%;
+	position: relative;
+	width: 10%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.container
+{
+	text-align: center;
+	margin-bottom: 10%;
+}
+
+.button
+{
+	background-color: #F8B173;
+	padding: 15px;
+	margin: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: none;
+	margin-top: 4%;
+	font-size: 50px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.button a:link, a:visited
+{
+	color: #482711;
+	text-decoration: none;
+}
+
+.button:hover
+{
+	background-color: #E98834;
+}
+
+footer
+{
+	flex-shrink: 0;
+	font-family: "Helvetica", Helvetica, sans-serif;
+	font-size: 14px;
+	position: fixed;
+    bottom: 0;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+	background-color: #3B2B1E;
+}
+
+@media only screen and (max-width: 1000px)
+{
+
+body img
+{
+	display: block;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+.wrapper
+{
+	width: 100%;
+	margin: 0;
+	display: inline-block;
+	position: absolute;
+	font-size: 24px;
+}
+
+.button
+{
+	font-size: 25px;
+	padding: 25px 50px 25px 50px;
+}
+
+.content
+{
+
+	margin-bottom: 25%;
+}
+
+}
+
+@media only screen and (min-width: 750px)
+{
+
+.wrapper
+{
+	font-size: 32px;
+}
+
+.button
+{
+	padding: 25px 50px 25px 50px;
+	font-size: 32px;
+}
+
+}
