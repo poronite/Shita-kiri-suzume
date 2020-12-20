@@ -79,7 +79,7 @@ body
 	margin-bottom: 8%;
 }
 
-#button1
+#container a
 {
 	background-color: #F8B173;
 	padding: 5px;
@@ -92,13 +92,13 @@ body
 	font-family: "Times New Roman", Times, serif;
 }
 
-#button1 a:link, a:visited
+#container a:link, a:visited
 {
 	color: #482711;
 	text-decoration: none;
 }
 
-#button1:hover
+#container a:hover
 {
 	background-color: #E98834;
 }
