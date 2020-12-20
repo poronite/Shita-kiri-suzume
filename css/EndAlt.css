@@ -38,12 +38,14 @@ body
 
 body img
 {
+	border: 6px outset #916c4b;
 	display: inline-block;
 	width: 50%;
 	height: 50%;
 	margin-top: 5%;
 	margin-bottom: 5%;
 	margin-left: 3%;
+	border-radius: 8px;
 }
 
 .wrapper
@@ -69,11 +71,12 @@ body img
 .content
 {
 	margin-left: 45%;
-	margin-top: 15%;
+	margin-top: 10%;
 	position: relative;
 	width: 10%;
 	display: flex;
 	justify-content: space-around;
+	margin-bottom: 20%;
 }
 
 .container
@@ -93,6 +96,7 @@ body img
 	margin-top: 4%;
 	font-size: 50px;
 	font-family: "Times New Roman", Times, serif;
+	border: 6px outset #916c4b;
 }
 
 .button a:link, a:visited
@@ -129,6 +133,7 @@ footer
 
 body img
 {
+	border: 0px;
 	display: block;
 	width: 100%;
 	margin: 0;

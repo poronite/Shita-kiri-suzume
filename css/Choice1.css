@@ -38,12 +38,14 @@ body
 
 body img
 {
+	border: 6px outset #916c4b;
 	display: inline-block;
 	width: 50%;
 	height: 50%;
 	margin-top: 5%;
 	margin-bottom: 5%;
 	margin-left: 3%;
+	border-radius: 8px;
 }
 
 .wrapper
@@ -86,6 +88,7 @@ body img
 	margin-top: 4%;
 	font-size: 50px;
 	font-family: "Times New Roman", Times, serif;
+	border: 6px outset #916c4b;
 }
 
 .button a:link, a:visited
@@ -111,6 +114,7 @@ footer
     height: 30px;
     margin: 0 auto;
     margin-top: 100px;
+    padding-top: 10px;
     text-align: center;
     color: white;
 	background-color: #3B2B1E;
@@ -125,6 +129,7 @@ body img
 	width: 100%;
 	margin: 0;
 	text-align: center;
+	border: 0px;
 }
 
 .wrapper
