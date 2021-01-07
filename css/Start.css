@@ -38,26 +38,26 @@ header h2
 	font-size: 40px;
 	padding-bottom: 10px;
 	letter-spacing: 4px;
+	padding: 0;
 }
 
 body
 {
 	background-color: #F9F8E7;
-	margin: 0px;
+	margin: 0;
 }
 
 body img
 {
-	border: 6px outset #916c4b;
+ 	border: 6px outset #916c4b;
+	border-radius: 8px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	margin-top: 50px;
 	margin-bottom: 4%;
-	font-size: 50px;
 	width: 44%;
 	height: 44%;
-	border-radius: 8px;
 }
 
 #container a
